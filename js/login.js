@@ -1,0 +1,1 @@
+$(function(){$("#sub").click(function(){$.ajax({type:"POST",url:"login.php",data:"username="+$(".yhz").val()+"password="+$(".mmz").val(),success:function(l){-1==l?$("yhz_msg").html("账户已存在"):0==l?$("yhz_msg").html("注册失败"):($("yhz_msg").html("注册成功"),window.location.href="zhuy.html"),console.log(l)}})})});

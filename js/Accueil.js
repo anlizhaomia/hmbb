@@ -1,0 +1,1 @@
+$("#roof").click(function(){$("html,body").animate({scrollTop:0},100)}),$(document).ready(function(){$("#service").hover(function(){$("#Airlines").css("display","block")},function(){$("#Airlines").css("display","none")}),$("#Airlines").hover(function(){$(this).css("display","block")},function(){$(this).css("display","none")})});

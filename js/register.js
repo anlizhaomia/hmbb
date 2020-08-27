@@ -1,0 +1,1 @@
+$(function(){$("#sub").click(function(){$.ajax({type:"POST",url:"register.php",data:"username="+$(".yhz").val()+"&password="+$(".mmz").val(),success:function(a){1==a?(alert("登录成功"),window.location.href="zhuy.html"):alert("登录失败"),console.log(a)}})})});
